@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Riot Sans Latin";
+  src: url("./asset/fonts/RiotSans-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter V Latin";
+  src: url("./asset/fonts/Inter-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --text-font: "Inter V Latin", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--font-color);
+  font-family: var(--text-font);
+}
+
+/* Styles personnalisés pour la scrollbar
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-custom-white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-custom-red); 
+  border-radius: 10px;
+  cursor: pointer;
+} */

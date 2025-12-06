@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "role": "Python Developer",
+    "title": "Tetris Game",
+    "description": "Ce projet scolaire consiste à développer une version personnalisée de Tetris en Python, intégrant une interface graphique et plusieurs modes de jeu originaux : deux joueurs, pourrissement des cases, polyominos variés, ou encore plateau incliné à 45°. Conçu en équipe, le projet a permis d’aborder à la fois la intégrant une interface graphique et plusieurs modes de jeu originaux : deux joueurs, pourrissement des cases, polyominos variés, ou encore plateau incliné à 45°. Conçu en équipe, le projet a permis d’aborder à la fois la logique du gameplay, la gestion de données avec JSON, ainsi que la création d’une interface visuelle interactive. Il s’agit d’un excellent exercice de coordination, de programmation orientée projet et de créativité dans les mécaniques de jeu.",
+    "images": [
+      "tetris/duo.png",
+      "tetris/mode.png",
+      "tetris/tetris.png",
+      "tetris/pourrissement.png",
+
+      "tetris/polyominos.png",
+      "tetris/rotation.png"
+    ],
+    "date": "2024",
+    "languages": ["python.svg", "json.svg"],
+    "link": "https://github.com/Draken1003/tetris"
+  },
+  {
+    "id": 2,
+    "role": "Frontend",
+    "title": "Unesco",
+    "description": "Ce projet scolaire consiste en la création d’un site web consacré au patrimoine mondial de Kyoto, en lien avec l’UNESCO. Destiné à un large public, ce site recense les monuments majeurs de la ville, accompagnés de descriptions détaillées sur leur histoire, leur architecture et leur importance culturelle. Construit en HTML, CSS, PHP et JavaScript, ce projet a également été l’occasion de développer un travail de groupe structuré, favorisant la collaboration, la répartition des tâches et l’initiation à la conception web. Ce site met en valeur la richesse culturelle de Kyoto tout en proposant une navigation simple et informative",
+    "images": [
+      "unesco/home.png",
+      "unesco/home2.png",
+      "unesco/lieu.png",
+      "unesco/lieu2.png"
+    ],
+    "date": "2025",
+    "languages": ["html.svg", "css.svg", "javascript.svg", "php.svg"],
+    "link": "https://github.com/Draken1003/unesco"
+  },
+  {
+    "id": 3,
+    "role": "Frontend",
+    "title": "Site Educatif",
+    "description": "Un projet de site web pour l'éducation.",
+    "images": [
+      "site-education/site_home.png",
+      "site-education/site_login.png",
+      "site-education/site_sign_up.png",
+      "site-education/site_cour.png",
+      "site-education/site_exam.png"
+    ],
+    "date": "2023",
+    "languages": ["react.svg", "bootstrap.svg"],
+    "link": "https://github.com/Draken1003/Projet-React"
+  },
+  {
+    "id": 4,
+    "role": "C++ Developer",
+    "title": "Game of Life",
+    "description": "Ce projet personnel a consisté à programmer le célèbre Jeu de la vie en C++ en utilisant la bibliothèque SDL3. Le principe est simple : l'utilisateur place des cellules sur une grille, puis lance la simulation pour voir comment elles évoluent automatiquement selon des règles précises. Le but était de mieux comprendre la logique du jeu, d’apprendre à gérer une interface graphique, et de progresser en programmation avec C++. Ce projet m’a permis de relier visuellement code et comportement, tout en restant simple et ludique.",
+    "images": ["game_of_life/game_of_life.png", "game_of_life/fenetre.png"],
+    "date": "2025",
+    "languages": ["cpp.svg"],
+    "link": "https://github.com/Draken1003/game-of-life"
+  }
+]

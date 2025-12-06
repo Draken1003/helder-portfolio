@@ -1,0 +1,69 @@
+[
+  {
+    "lang": "C",
+    "path": "src/asset/icons/lang/c.svg"
+  },
+  {
+    "lang": "C#",
+    "path": "src/asset/icons/lang/csharp.svg"
+  },
+  {
+    "lang": "C++",
+    "path": "src/asset/icons/lang/cpp.svg"
+  },
+
+  {
+    "lang": "HTML",
+    "path": "src/asset/icons/lang/html.svg"
+  },
+  {
+    "lang": "CSS",
+    "path": "src/asset/icons/lang/css.svg"
+  },
+  {
+    "lang": "JavaScript",
+    "path": "src/asset/icons/lang/javascript.svg"
+  },
+  {
+    "lang": "React",
+    "path": "src/asset/icons/lang/react.svg"
+  },
+  {
+    "lang": "TailwindCss",
+    "path": "src/asset/icons/lang/tailwindcss.svg"
+  },
+
+  {
+    "lang": "PHP",
+    "path": "src/asset/icons/lang/php.svg"
+  },
+
+  {
+    "lang": "JSON",
+    "path": "src/asset/icons/lang/json.svg"
+  },
+  {
+    "lang": "Python",
+    "path": "src/asset/icons/lang/python.svg"
+  },
+  {
+    "lang": "JAVA",
+    "path": "src/asset/icons/lang/java.svg"
+  },
+  {
+    "lang": "Figma",
+    "path": "src/asset/icons/tools/figma.svg"
+  },
+  {
+    "lang": "VSC",
+    "path": "src/asset/icons/tools/vsc.svg"
+  },
+  {
+    "lang": "GIT",
+    "path": "src/asset/icons/tools/git.svg"
+  },
+  {
+    "lang": "Github",
+    "path": "src/asset/icons/tools/github.svg"
+  }
+]

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-custom-white: #d9d9d9;
+  --color-custom-red: #ff5c39;
+  --color-custom-black: #1e1e1e;
+  --color-custom-gray: #111113;
+  --color-custom-darkred: #1e0d04;
+  --color-decoration-gray: #5f5f63;
+  --color-title-gray: #d9d9d9;
+  --color-title-black: #111113;
+  --font-family-title: "Riot Sans Latin", sans-serif;
+  --font-family-text: "Inter V Latin", sans-serif;
+}
+
+@layer composents {
+  .clip-section {
+    clip-path: path(
+      "M 0,70 A 20,20 1,0,1 20,50 L 220,50 A 20,20 0,0,0 240,30 L 240,20 A 20,20 1,0,1 260, 0 L 1800,0 L 1800, 1000 L 0, 1000 Z"
+    );
+  }
+
+  .section-title {
+    @apply font-family-title text-center leading-tight uppercase;
+  }
+
+  .lang-card {
+    box-shadow: 5px 5px 2rem 1px black;
+  }
+
+  .title {
+    position: relative;
+  }
+
+  .title2::before {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-custom-red);
+    margin-right: 0.5rem;
+    transform: translateY(20%);
+  }
+}
