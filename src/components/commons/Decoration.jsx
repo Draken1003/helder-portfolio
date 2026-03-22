@@ -1,6 +1,12 @@
 import React from "react";
 
-export default function Decoration({ position, texts, section, absolute }) {
+export default function Decoration({
+  position,
+  texts,
+  section,
+  absolute,
+  bottom,
+}) {
   return (
     <div
       className={
@@ -12,7 +18,7 @@ export default function Decoration({ position, texts, section, absolute }) {
       }
     >
       <div
-        className={`absolute right-[5%] left-[5%] h-fit ${position === "top" ? "top-[25%]" : " bottom-[8%] md:bottom-[5%] "} text-decoration-gray z-1 mr-auto ml-auto grid auto-cols-fr grid-flow-col grid-rows-1 pt-5 pb-5 font-bold uppercase`}
+        className={`font-family-title absolute right-[5%] left-[5%] text-xs ${position === "top" ? "top-[25%]" : `bottom-[${bottom}%]`} text-decoration-gray z-1 grid auto-cols-fr grid-flow-col grid-rows-1 pt-5 pb-5 uppercase`}
       >
         {texts.map((text, index) =>
           section === "contact" ? (
@@ -29,7 +35,7 @@ export default function Decoration({ position, texts, section, absolute }) {
 const DecorationContact = ({ index, text }) => {
   return (
     <div
-      className={`text-xs sm:text-lg ${index == 0 ? "text-start" : index == 1 ? "text-center text-orange-800" : "text-end"}`}
+      className={` ${index == 0 ? "text-start" : index == 1 ? "text-center text-orange-800" : "text-end"}`}
     >
       {text}
     </div>
@@ -37,10 +43,6 @@ const DecorationContact = ({ index, text }) => {
 };
 const DecorationOther = ({ index, text }) => {
   return (
-    <div
-      className={`text-xs sm:text-lg ${index == 0 ? "text-start" : "text-end"}`}
-    >
-      {text}
-    </div>
+    <div className={` ${index == 0 ? "text-start" : "text-end"}`}>{text}</div>
   );
 };

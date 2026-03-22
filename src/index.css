@@ -2,14 +2,14 @@
 
 @theme {
   --color-custom-white: #d9d9d9;
-  --color-custom-red: #ff5c39;
-  --color-custom-black: #1e1e1e;
-  --color-custom-gray: #111113;
+  --color-custom-red: #ff3c00;
+  --color-custom-black: #111113;
+  --color-custom-black1: #1e1e1e;
   --color-custom-darkred: #1e0d04;
   --color-decoration-gray: #5f5f63;
   --color-title-gray: #d9d9d9;
   --color-title-black: #111113;
-  --font-family-title: "Riot Sans Latin", sans-serif;
+  --font-family-title: "Clash Display SemiBold", sans-serif;
   --font-family-text: "Inter V Latin", sans-serif;
 }
 
@@ -41,5 +41,13 @@
     background-color: var(--color-custom-red);
     margin-right: 0.5rem;
     transform: translateY(20%);
+  }
+
+  .swiper-slide {
+    filter: blur(2px) brightness(80%);
+  }
+
+  .swiper-slide-active {
+    filter: none;
   }
 }

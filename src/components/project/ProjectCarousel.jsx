@@ -11,20 +11,22 @@ import ProjectCard from "./ProjectCard";
 import projectData from "../../data/projects.json";
 
 export default function ProjectCarousel() {
-  const [projects, setProjects] = useState([...projectData]);
+  const [projects, setProjects] = useState([]);
 
+  useEffect(() => {
+    setProjects(projectData);
+  });
   return (
     <Swiper
       modules={[EffectCoverflow]}
       effect="coverflow"
       grabCursor={true}
       centeredSlides={true}
-      centerInsufficientSlides={true}
-      slideToClickedSlide={true}
       breakpoints={{
         0: { slidesPerView: 1, loop: true },
         640: { slidesPerView: 3, loop: false },
       }}
+      slidesPerView={3}
       coverflowEffect={{
         rotate: 0,
         stretch: 0,
@@ -32,10 +34,8 @@ export default function ProjectCarousel() {
         modifier: 1,
         slideShadows: false,
       }}
-      style={{
-        height: "100%",
-        overflow: "visible",
-      }}
+      slideToClickedSlide={true}
+      style={{ height: "100%", position: "relative", overflow: "visible" }}
     >
       {projects.map((project, index) => (
         <SwiperSlide key={index}>

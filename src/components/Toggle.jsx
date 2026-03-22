@@ -4,13 +4,16 @@ export default function Toggle({ onClick, isOpen }) {
   return (
     <button
       onClick={onClick}
-      data-collapse-toggle="navbar-default"
-      type="button"
-      className="bg-custom-black inline-flex max-h-max cursor-pointer items-center justify-center rounded-lg p-2 text-sm md:hidden"
-      aria-controls="navbar-default"
-      aria-expanded={isOpen ? "true" : "false"}
+      className="bg-custom-black1 inline-flex max-h-max cursor-pointer items-center justify-center rounded-lg p-2 text-sm md:hidden"
     >
-      <svg
+      <div className="bg-custom-red flex rounded-sm p-1">
+        {isOpen ? (
+          <box-icon name="x"></box-icon>
+        ) : (
+          <box-icon name="menu"></box-icon>
+        )}
+      </div>
+      {/* <svg
         className="bg-custom-red rounded-sm"
         width="32"
         height="32"
@@ -38,7 +41,7 @@ export default function Toggle({ onClick, isOpen }) {
           stroke="#111113"
           strokeLinecap="square"
         ></path>
-      </svg>
+      </svg> */}
     </button>
   );
 }
