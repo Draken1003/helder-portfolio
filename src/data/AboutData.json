@@ -1,0 +1,233 @@
+{
+  "skills": [
+    {
+      "title": "Réaliser",
+      "description": "La compétence Réaliser correspond à la capacité de concevoir, développer et mettre en œuvre une solution informatique répondant aux besoins d’un client. Elle implique de partir d’exigences précises pour aboutir à une application fonctionnelle, en respectant les contraintes définies et en faisant des choix techniques adaptés. Cette compétence mobilise des connaissances en algorithmique et en programmation afin de produire un code structuré, lisible et maintenable. Elle suppose également de porter une attention particulière à la qualité du développement, notamment à travers la documentation et la mise en place de tests pour vérifier le bon fonctionnement de l’application. Réaliser, c’est aussi être capable de concevoir des interfaces simples et ergonomiques, tout en intégrant des principes d’accessibilité. Enfin, cette compétence s’inscrit dans une démarche globale qui inclut l’évolution et la maintenance des applications, garantissant leur bon fonctionnement dans le temps.",
+      "parts": [
+        {
+          "title": "Développement",
+          "dev": [
+            "react",
+            "javascript",
+            "typescript",
+            "java",
+            "python",
+            "html5",
+            "css3",
+            "tailwindcss",
+            "php",
+            "c",
+            "android",
+            "nextjs"
+          ],
+          "other": []
+        },
+        {
+          "title": "Test et validation",
+          "dev": [],
+          "other": ["Documentation technique et utilisateur", "Cahier de tests"]
+        },
+        {
+          "title": "Outils & environnements",
+          "dev": [
+            "vscode",
+            "androidstudio",
+            "intellij",
+            "visualstudio",
+            "eclipse",
+            "linux",
+            "windows11",
+            "git",
+            "github",
+            "figma"
+          ],
+          "other": []
+        }
+      ],
+      "projects": [
+        {
+          "name": "LouisTrain",
+          "link": "https://github.com/Murasakaaa/LouisTrain"
+        },
+        {
+          "name": "Game of life",
+          "link": "https://github.com/Draken1003/game-of-life"
+        },
+        {
+          "name": "Project Haven",
+          "link": "https://github.com/redlinka/Projet-HAVEN"
+        }
+      ]
+    },
+    {
+      "title": "Optimiser",
+      "description": "La compétence Optimiser consiste à améliorer les performances d’une application informatique afin de répondre à des critères précis comme le temps d’exécution, l’utilisation des ressources ou encore l’impact environnemental. Elle repose sur la capacité à analyser un problème en profondeur et à proposer des solutions efficaces et adaptées. Cela implique de modéliser des situations parfois complexes, de choisir des algorithmes pertinents et d’utiliser des structures de données appropriées. L’objectif est de concevoir des programmes plus rapides, plus fiables et mieux dimensionnés en fonction des contraintes du contexte. Optimiser, c’est également savoir comparer différentes approches, justifier ses choix techniques et valider les résultats obtenus. Cette démarche permet non seulement d’améliorer les performances, mais aussi de proposer des solutions durables, en prenant en compte les enjeux environnementaux et sociétaux liés au numérique.",
+      "parts": [
+        {
+          "title": "Algorithmes",
+          "dev": [],
+          "other": [
+            "Recherche en profondeur / largeur",
+            "Algorithmes de tri",
+            "Dijkstra",
+            "Dichotomie"
+          ]
+        },
+        {
+          "title": "Structures de données",
+          "dev": [],
+          "other": [
+            "Listes chaînées",
+            "Tables de hachage",
+            "Arbres binaires",
+            "Graphes",
+            "Pile/File"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "LouisTrain",
+          "link": "https://github.com/Murasakaaa/LouisTrain"
+        },
+        {
+          "name": "Tetris",
+          "link": "https://github.com/Draken1003/tetris"
+        },
+        {
+          "name": "Project Haven",
+          "link": "https://github.com/redlinka/Projet-HAVEN"
+        }
+      ]
+    },
+    {
+      "title": "Administrer",
+      "description": "La compétence Administrer regroupe l’ensemble des actions nécessaires pour déployer, configurer et maintenir en conditions opérationnelles une infrastructure informatique. Elle intervient après le développement d’une solution afin de la rendre accessible, fiable et performante pour les utilisateurs. Elle implique la maîtrise des systèmes, des réseaux et des services, ainsi que la capacité à installer et configurer des environnements adaptés. L’objectif est d’assurer une qualité de service optimale tout en garantissant la disponibilité et la continuité des applications. Administrer, c’est aussi veiller à la sécurité du système d’information en appliquant les normes en vigueur et les bonnes pratiques. Cela inclut la protection des données, la sécurisation des services et l’anticipation des risques. Cette compétence permet ainsi de déployer des solutions robustes, évolutives et sécurisées au sein d’une organisation.",
+      "parts": [
+        {
+          "title": "Services réseaux",
+          "dev": [],
+          "other": [
+            "TCP/IP",
+            "HTTP(s)",
+            "DNS",
+            "SMTP",
+            "Proxy",
+            "NAT",
+            "Firewall"
+          ]
+        },
+        {
+          "title": "Déploiement et sécurisation",
+          "dev": [],
+          "other": ["PHPMyAdmin", "Netkit"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "Project Haven",
+          "link": "https://github.com/redlinka/Projet-HAVEN"
+        }
+      ]
+    },
+    {
+      "title": "Gérer",
+      "description": "La compétence Gérer consiste à concevoir, organiser et exploiter les données d’une organisation afin de les rendre utiles à la prise de décision. Elle couvre l’ensemble du cycle de vie de la donnée, depuis sa structuration jusqu’à sa restitution sous une forme exploitable. Elle implique la conception de bases de données adaptées aux besoins, leur mise à jour, ainsi que leur interrogation à l’aide de requêtes ou via des applications. L’objectif est de garantir la cohérence, la qualité et la performance des données, tout en facilitant leur utilisation et leur compréhension, notamment grâce à des outils de visualisation. Gérer, c’est également assurer la sécurité et la confidentialité des informations, en respectant les réglementations en vigueur sur la protection des données personnelles. Cette compétence intègre enfin une réflexion sur les enjeux économiques, sociétaux et environnementaux liés au stockage et à l’exploitation des données, afin de proposer des solutions responsables et efficaces.",
+      "parts": [
+        {
+          "title": "Base de données",
+          "dev": ["mysql", "postgresql", "mongodb"],
+          "other": [
+            "Indexation",
+            "Optimisation des requêtes",
+            "Sécurité des données"
+          ]
+        },
+        {
+          "title": "Respect des réglementations",
+          "dev": [],
+          "other": [
+            "Qualité/intégrité des données",
+            "RGPD",
+            "Loi informatique et Libertés",
+            "Consentement utilisateur"
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "name": "LouisTrain",
+          "link": "https://github.com/Murasakaaa/LouisTrain"
+        },
+        {
+          "name": "Project Haven",
+          "link": "https://github.com/redlinka/Projet-HAVEN"
+        }
+      ]
+    },
+    {
+      "title": "Conduire",
+      "description": "La compétence Conduire consiste à piloter un projet informatique dans sa globalité, depuis l’identification des besoins jusqu’à sa mise en œuvre et son évolution, en s’appuyant sur des méthodes adaptées, qu’elles soient classiques ou agiles. Elle implique de comprendre les attentes des clients et des utilisateurs afin de proposer des solutions cohérentes avec leur chaîne de valeur. Conduire un projet, c’est organiser les différentes phases du cycle de développement, mobiliser les outils de gestion appropriés et coordonner les acteurs impliqués en assurant une communication claire et efficace. Cette compétence repose également sur une capacité à formaliser les besoins, à évaluer la faisabilité d’un projet et à en assurer le suivi tout au long de son cycle de vie, y compris en condition opérationnelle. Elle intègre une démarche proactive, critique et créative pour s’adapter aux évolutions et améliorer en continu les systèmes existants. Enfin, elle prend en compte les dimensions juridiques, éthiques, responsables et interculturelles, afin de garantir des pratiques conformes aux normes en vigueur et respectueuses des enjeux sociétaux et environnementaux.",
+      "parts": [
+        {
+          "title": "Planification & gestion de projet",
+          "dev": [],
+          "other": ["Agile", "Cycle en V", "RACI", "Gantt"]
+        },
+        {
+          "title": "Outils de gestion de projet",
+          "dev": ["jira", "trello"],
+          "other": ["GanttProject"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "LouisTrain",
+          "link": "https://github.com/Murasakaaa/LouisTrain"
+        },
+        {
+          "name": "Project Haven",
+          "link": "https://github.com/redlinka/Projet-HAVEN"
+        }
+      ]
+    },
+    {
+      "title": "Collaborer",
+      "description": "La compétence Collaborer consiste à travailler efficacement au sein d’une équipe informatique en mobilisant des aptitudes relationnelles, organisationnelles et communicationnelles adaptées. Elle implique de comprendre son environnement professionnel, d’identifier les rôles, les statuts et les responsabilités de chaque acteur, et de s’inscrire dans une dynamique collective, souvent pluridisciplinaire. Collaborer, c’est savoir organiser son travail en cohérence avec celui des autres, partager et transmettre l’information de manière claire et structurée, tout en contribuant activement à l’avancement du projet. Cette compétence suppose également de participer à la mise en œuvre des évolutions informatiques en accompagnant les changements et en facilitant leur adoption. Elle repose sur une communication efficace, favorisant l’écoute, l’échange et la coopération entre les membres de l’équipe. Enfin, elle intègre le respect des contraintes juridiques et organisationnelles, ainsi qu’une capacité à rendre compte de son activité, afin de garantir la transparence, la coordination et la réussite des projets collectifs.",
+      "parts": [
+        {
+          "title": "Outils collaboratifs",
+          "dev": ["git", "github", "jira", "google"],
+          "other": ["discord"]
+        },
+        {
+          "title": "Méthodes de travail",
+          "dev": [],
+          "other": ["Agile", "Revues de code", "Pair coding", "Merge request"]
+        }
+      ],
+      "projects": [
+        {
+          "name": "LouisTrain",
+          "link": "https://github.com/Murasakaaa/LouisTrain"
+        },
+        {
+          "name": "Project Haven",
+          "link": "https://github.com/redlinka/Projet-HAVEN"
+        }
+      ]
+    }
+  ],
+  "parcours": [
+    {
+      "name": "BUT Informatique - Parcours réalisation d'applications : Conception, développement, validation",
+      "place": "IUT Université Gustave Eiffel - Champs sur Marne 77420",
+      "year": "2024"
+    },
+    {
+      "name": "Baccalauréat général NSI Mathématique mention: Bien",
+      "place": "Lycée Georges Clémenceau - Villemomble 93250",
+      "year": "2023"
+    }
+  ]
+}

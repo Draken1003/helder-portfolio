@@ -1,33 +1,30 @@
-import "./App.css";
-import NavBar from "./components/NavBar";
-import Home from "./section/Home";
-import AboutMe from "./section/AboutMe";
-import Project from "./section/Project";
-import Links from "./components/Links";
-import Contact from "./section/Contact";
-import SmoothScroll from "./providers/SmoothScroll";
-import "boxicons";
+import { ReactLenis } from "lenis/react";
+import "devicon/devicon.min.css";
+
+// Components
+import Overlay from "./layout/Overlay";
+import BackgroundParalax from "./components/animation/BackgroundParalax";
+
+// Section
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+import Contact from "./sections/Contact";
 
 function App() {
-  const navItems = [
-    { id: "#home", title: "Esteves Helder" },
-    { id: "#aboutme-section", title: "A propos de moi" },
-    { id: "#projects-section", title: "Projets" },
-    { id: "#contact-section", title: "Contact" },
-  ];
-
   return (
-    <div className="scrollbar bg-custom-white scroll-smooth">
-      <SmoothScroll>
-        <NavBar navItems={navItems} />
-        <Home />
-        <AboutMe />
-        <Project />
-        <Contact navItems={navItems} />
-        <div className="fixed right-0 bottom-0 z-1000 m-5">
-          <Links></Links>
-        </div>
-      </SmoothScroll>
+    <div className="relative">
+      <ReactLenis root />
+
+      {/* <BackgroundParalax /> */}
+      <Overlay />
+
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
