@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import gsap from "gsap";
 import { useLenis } from "lenis/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { FileUser } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -9,20 +10,15 @@ export default function Overlay() {
   const navItems = ["Accueil", "A propos", "Projets", "Contact"];
   const links = [
     {
-      name: "github",
+      name: "github-original",
       href: "https://github.com/Draken1003?tab=repositories",
       type: "logo",
     },
 
     {
-      name: "linkedin-square",
+      name: "linkedin-plain",
       href: "https://www.linkedin.com/in/helder-esteves-b45088338/",
       type: "logo",
-    },
-    {
-      name: "file",
-      href: "/assets/pdf/CV_Esteves_Helder.pdf",
-      type: "solid",
     },
   ];
   const lenis = useLenis();
@@ -93,15 +89,21 @@ export default function Overlay() {
         <ul className="flex w-fit flex-col gap-5">
           {links.map((link, index) => (
             <li key={index}>
-              <a href={link.href} target="_blank">
-                <box-icon
-                  type={link.type}
-                  name={link.name}
-                  className="fill-gray1"
-                />
+              <a href={link.href} target="_blank" className="flex-center">
+                <i className={`devicon-${link.name} text-gray1 text-2xl`} />
               </a>
             </li>
           ))}
+          {/* CV */}
+          <li>
+            <a
+              href={`${import.meta.env.BASE_URL}/assets/pdf/CV_Esteves_Helder.pdf`}
+              className="flex-center"
+              target="_blank"
+            >
+              <FileUser className="fill-gray1" size={30} />
+            </a>
+          </li>
         </ul>
       </div>
     </div>

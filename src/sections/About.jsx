@@ -45,11 +45,14 @@ export default function About() {
         {/* Content */}
         <div className="border-gray2 flex gap-2 border p-3">
           <Quote />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-            risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing
-            nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas
-            ligula massa, varius a, semper congue, euismod non, mi.
+          <p className="text-xl">
+            Intéressé par tous les aspects du développement (logique, front-end,
+            UX), je vise à devenir un développeur polyvalent capable de
+            s’adapter à différents projets et technologies. Attentif à
+            l’ergonomie et au visuel, je cherche à créer des applications à la
+            fois efficaces et agréables. Actuellement à la recherche d’un stage
+            pour appliquer mes compétences, progresser sur le terrain et
+            contribuer à des projets concrets au sein d’une équipe.
           </p>
         </div>
       </SectionHeader>
