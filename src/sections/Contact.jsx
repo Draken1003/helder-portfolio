@@ -11,7 +11,7 @@ export default function Contact() {
       }
     >
       <img
-        src="/assets/svg/shape7.svg"
+        src={`${import.meta.env.BASE_URL}/assets/svg/shape7.svg`}
         className="bg-shape top-2/3 -left-50"
         alt=""
       />

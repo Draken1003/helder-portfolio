@@ -20,7 +20,11 @@ export function SectionHeader({ iconSrc, title, number, children, className }) {
         className={`border-gray2 flex border ${children ? "border-b-0" : ""}`}
       >
         <div className="border-gray2 border-r p-1">
-          <img src={iconSrc} className="h-20 md:h-30" alt="" />
+          <img
+            src={`${import.meta.env.BASE_URL + iconSrc}`}
+            className="h-20 md:h-30"
+            alt=""
+          />
         </div>
 
         <div className="font-general-regular flex flex-1 items-center justify-between gap-2 p-2">

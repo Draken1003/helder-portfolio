@@ -18,19 +18,19 @@ export default function About() {
     >
       {/* Background */}
       <img
-        src="/assets/svg/shape2.svg"
+        src={`${import.meta.env.BASE_URL}/assets/svg/shape2.svg`}
         className="parallax-bg bg-shape top-1/4 -left-50"
         alt=""
         data-speed="0.3"
       />
       <img
-        src="/assets/svg/shape3.svg"
+        src={`${import.meta.env.BASE_URL}/assets/svg/shape3.svg`}
         className="parallax-bg bg-shape top-1/2 -right-50!"
         alt=""
         data-speed="0.3"
       />
       <img
-        src="/assets/svg/shape4.svg"
+        src={`${import.meta.env.BASE_URL}/assets/svg/shape4.svg`}
         className="parallax-bg bg-shape top-4/5 -left-50!"
         alt=""
         data-speed="0.3"

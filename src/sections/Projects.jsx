@@ -14,7 +14,7 @@ export default function Projects() {
       className={"relative flex w-full flex-col items-center px-7"}
     >
       <img
-        src="/assets/svg/shape5.svg"
+        src={`${import.meta.env.BASE_URL}/assets/svg/shape5.svg`}
         className="bg-shape top-2/3 -right-50"
         alt=""
       />
