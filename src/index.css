@@ -143,6 +143,11 @@
       font-size: clamp(4rem, 11vw, 13vw);
     }
   }
+
+  .scrollbar-content {
+    scrollbar-color: var(--color-orange) transparent;
+    scrollbar-width: thin;
+  }
 }
 
 * {

@@ -55,7 +55,7 @@ export default function Overlay() {
     }
   }, []);
   return (
-    <div className="absolute-center pointer-events-none fixed! z-1000 flex h-dvh w-full flex-col justify-between">
+    <div className="absolute-center pointer-events-none fixed! z-100 flex h-dvh w-full flex-col justify-between">
       {/* Top */}
       <div className="overlay-fade absolute -top-2 left-0 -z-5 h-70 w-full" />
       <div className="flex justify-between p-7.5 md:p-15">

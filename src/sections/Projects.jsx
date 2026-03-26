@@ -61,7 +61,7 @@ const TextEffect = ({ text, hiddenText, github }) => {
           ref={textRef}
           className="animated-text font-clash-bold text-gray2/60 text-4xl uppercase sm:text-6xl md:ml-10 md:text-7xl"
         >
-          {text} <span className="text-black">{hiddenText}</span>
+          {text} <span className="flex text-black">{hiddenText}</span>
         </h1>
       </a>
     </div>

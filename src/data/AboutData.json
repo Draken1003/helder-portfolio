@@ -2,218 +2,477 @@
   "skills": [
     {
       "title": "Réaliser",
-      "description": "La compétence Réaliser correspond à la capacité de concevoir, développer et mettre en œuvre une solution informatique répondant aux besoins d’un client. Elle implique de partir d’exigences précises pour aboutir à une application fonctionnelle, en respectant les contraintes définies et en faisant des choix techniques adaptés. Cette compétence mobilise des connaissances en algorithmique et en programmation afin de produire un code structuré, lisible et maintenable. Elle suppose également de porter une attention particulière à la qualité du développement, notamment à travers la documentation et la mise en place de tests pour vérifier le bon fonctionnement de l’application. Réaliser, c’est aussi être capable de concevoir des interfaces simples et ergonomiques, tout en intégrant des principes d’accessibilité. Enfin, cette compétence s’inscrit dans une démarche globale qui inclut l’évolution et la maintenance des applications, garantissant leur bon fonctionnement dans le temps.",
-      "parts": [
+      "description": "Concevoir, développer, tester et intégrer une solution informatique en répondant aux besoins du client et en prenant en compte les contraintes du projet.",
+      "ac": [
         {
-          "title": "Développement",
-          "dev": [
-            "react",
-            "javascript",
-            "typescript",
-            "java",
-            "python",
-            "html5",
-            "css3",
-            "tailwindcss",
-            "php",
-            "c",
-            "android",
-            "nextjs"
+          "id": "AC21.01",
+          "title": "Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+          "acquired": true,
+          "description": "Lorsque je commence un projet, je prends le temps de comprendre et d’organiser les attentes du client, qu’elles soient fonctionnelles ou non fonctionnelles, afin d’avoir une vision claire avant de démarrer le développement.",
+          "acquiredElements": [
+            "Analyse du cahiers des charges",
+            "Compréhension des besoins",
+            "Priorisation des fonctionnalités",
+            "Rédaction des user stories",
+            "Décomposition en fonctionnalités"
           ],
-          "other": []
+          "examples": ["Jira", "Google Docs", "Figma"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            },
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            }
+          ]
         },
         {
-          "title": "Test et validation",
-          "dev": [],
-          "other": ["Documentation technique et utilisateur", "Cahier de tests"]
-        },
-        {
-          "title": "Outils & environnements",
-          "dev": [
-            "vscode",
-            "androidstudio",
-            "intellij",
-            "visualstudio",
-            "eclipse",
-            "linux",
-            "windows11",
-            "git",
-            "github",
-            "figma"
+          "id": "AC21.02",
+          "title": "Appliquer des principes d'accessibilité et d'ergonomie",
+          "acquired": true,
+          "description": "Attiré par le design, je conçois des interfaces modernes et ergonomiques, en m’inspirant d'éléments existants afin de proposer un parcours utilisateur simple et agréable sur tous types d’appareils.",
+          "acquiredElements": [
+            "Prototypage interactif",
+            "Benchmark",
+            "Responsive design",
+            "Wireframing",
+            "Typographie et couleurs"
           ],
-          "other": []
-        }
-      ],
-      "projects": [
-        {
-          "name": "LouisTrain",
-          "link": "https://github.com/Murasakaaa/LouisTrain"
+          "examples": ["Figma"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
+          ]
         },
         {
-          "name": "Game of life",
-          "link": "https://github.com/Draken1003/game-of-life"
+          "id": "AC21.03",
+          "title": "Adopter de bonnes pratiques de conception et de programmation",
+          "acquired": true,
+          "description": "Je prend soin d'écrire un code clair et maintenable pour faciliter le travail en équipe et assurer sa maintenabilité, tant pour la maintenance que pour l’évolution du projet.",
+          "acquiredElements": [
+            "Clean code",
+            "Conventions de nommage et commentaires",
+            "Composants React",
+            "Revues de code et pull requests"
+          ],
+          "examples": [
+            "VSCode",
+            "Intellij",
+            "Eclipse",
+            "Git",
+            "GitHub",
+            "Prettier"
+          ],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
+          ]
         },
         {
-          "name": "Project Haven",
-          "link": "https://github.com/redlinka/Projet-HAVEN"
+          "id": "AC21.04",
+          "title": "Vérifier et valider la qualité de l'application par les tests",
+          "acquired": false,
+          "description": "Lorsque je développe, je teste manuellement les fonctionnalités que je mets en place à partir de cas de test. Je souhaite cependant évoluer vers les bonnes pratiques en intégrant des tests unitaires et des tests d’intégration.",
+          "acquiredElements": [
+            "Tests manuels",
+            "Cahier de tests",
+            "Identification et correction des bugs"
+          ],
+          "toConsolidate": ["Tests d'intégration", "Tests unitaires"],
+          "examples": ["VSCode", "DevTools"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            },
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            }
+          ]
         }
       ]
     },
     {
       "title": "Optimiser",
-      "description": "La compétence Optimiser consiste à améliorer les performances d’une application informatique afin de répondre à des critères précis comme le temps d’exécution, l’utilisation des ressources ou encore l’impact environnemental. Elle repose sur la capacité à analyser un problème en profondeur et à proposer des solutions efficaces et adaptées. Cela implique de modéliser des situations parfois complexes, de choisir des algorithmes pertinents et d’utiliser des structures de données appropriées. L’objectif est de concevoir des programmes plus rapides, plus fiables et mieux dimensionnés en fonction des contraintes du contexte. Optimiser, c’est également savoir comparer différentes approches, justifier ses choix techniques et valider les résultats obtenus. Cette démarche permet non seulement d’améliorer les performances, mais aussi de proposer des solutions durables, en prenant en compte les enjeux environnementaux et sociétaux liés au numérique.",
-      "parts": [
+      "description": "Proposer des applications informatiques optimisées en tenant compte de critères spécifiques comme le temps d’exécution, la précision et la consommation de ressources.",
+      "ac": [
         {
-          "title": "Algorithmes",
-          "dev": [],
-          "other": [
-            "Recherche en profondeur / largeur",
-            "Algorithmes de tri",
-            "Dijkstra",
-            "Dichotomie"
-          ]
-        },
-        {
-          "title": "Structures de données",
-          "dev": [],
-          "other": [
+          "id": "AC22.01",
+          "title": "Choisir des structures de données complexes adaptées au problème",
+          "acquired": true,
+          "description": "Avant de commencer à développer, je m’assure de choisir la structure de données la plus adaptée pour optimiser les performances du programme.",
+          "acquiredElements": [
             "Listes chaînées",
-            "Tables de hachage",
+            "Piles",
+            "Files",
             "Arbres binaires",
+            "Arbres de recherche",
+            "Tables de hachage",
             "Graphes",
-            "Pile/File"
+            "Complexité algorithmique"
+          ],
+          "examples": ["Python", "Java", "C"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
           ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "LouisTrain",
-          "link": "https://github.com/Murasakaaa/LouisTrain"
         },
         {
-          "name": "Tetris",
-          "link": "https://github.com/Draken1003/tetris"
+          "id": "AC22.02",
+          "title": "Utiliser des techniques algorithmiques adaptées pour des problèmes complexes",
+          "acquired": false,
+          "description": "Quand je réfléchis à un programme, je cherche à l’optimiser, mais je n’utilise pas encore d’algorithmes avancés comme la programmation dynamique ou les algorithmes de tri. Je souhaite m’appuyer davantage sur ces méthodes.",
+          "acquiredElements": [
+            "Algorithmes de tri",
+            "Récursivité",
+            "Dichotomie",
+            "Dijkstra"
+          ],
+          "toConsolidate": [
+            "Programmation dynamique",
+            "Utilisation d'algorithmes avancés"
+          ],
+          "examples": [
+            "Tri séléction",
+            "Tri injection",
+            "Dichotomie",
+            "Dijkstra"
+          ],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
+          ]
         },
         {
-          "name": "Project Haven",
-          "link": "https://github.com/redlinka/Projet-HAVEN"
+          "id": "AC22.03",
+          "title": "Comprendre les enjeux et moyens de sécurisation des données et du code",
+          "acquired": true,
+          "description": "Pendant la conception d’un projet, je veille à identifier les vulnérabilités courantes et à appliquer les bonnes pratiques de sécurité, tant dans l’environnement externe que dans l’environnement interne du projet.",
+          "acquiredElements": [
+            "Hachage et chiffrement des mots de passe",
+            "Authentification et sessions sécurisées (2FA)",
+            "Variables d'environnement"
+          ],
+          "examples": ["Git", "SHA", "ENV"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            },
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            }
+          ]
+        },
+        {
+          "id": "AC22.04",
+          "title": "Évaluer l'impact environnemental et sociétal des solutions proposées",
+          "acquired": false,
+          "description": "Je n’ai pas encore réfléchi à l’empreinte numérique de mes projets, mais je pense que ce serait une bonne pratique à intégrer pour limiter l’impact environnemental et prendre en compte les conséquences de mes choix techniques.",
+          "acquiredElements": [],
+          "toConsolidate": [
+            "Notions d'éco-conception logicielle",
+            "Mesure de l'empreinte carbone des services numériques",
+            "Optimisation des ressources serveur et réseau"
+          ],
+          "examples": [],
+          "projects": []
         }
       ]
     },
     {
       "title": "Administrer",
-      "description": "La compétence Administrer regroupe l’ensemble des actions nécessaires pour déployer, configurer et maintenir en conditions opérationnelles une infrastructure informatique. Elle intervient après le développement d’une solution afin de la rendre accessible, fiable et performante pour les utilisateurs. Elle implique la maîtrise des systèmes, des réseaux et des services, ainsi que la capacité à installer et configurer des environnements adaptés. L’objectif est d’assurer une qualité de service optimale tout en garantissant la disponibilité et la continuité des applications. Administrer, c’est aussi veiller à la sécurité du système d’information en appliquant les normes en vigueur et les bonnes pratiques. Cela inclut la protection des données, la sécurisation des services et l’anticipation des risques. Cette compétence permet ainsi de déployer des solutions robustes, évolutives et sécurisées au sein d’une organisation.",
-      "parts": [
+      "description": "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux, tout en optimisant le système informatique d’une organisation.",
+      "ac": [
         {
-          "title": "Services réseaux",
-          "dev": [],
-          "other": [
-            "TCP/IP",
-            "HTTP(s)",
-            "DNS",
-            "SMTP",
-            "Proxy",
-            "NAT",
-            "Firewall"
+          "id": "AC23.01",
+          "title": "Concevoir et développer des applications communicantes",
+          "acquired": false,
+          "description": "Lorsque je développe une application, je m’assure que les échanges entre le client et le serveur fonctionnent correctement. Je teste les appels aux APIs et veille à ce que les données circulent de manière fluide et cohérente, que ce soit via WebSocket ou d’autres protocoles. Cependant je souhaite renforcer mes compétences sur ce domaine.",
+          "acquiredElements": [
+            "Développement d'APIs",
+
+            "Format JSON et sérialisation des données"
+          ],
+          "toConsolidate": ["WebSockets et communication temps réel"],
+          "examples": ["Node.js", "Php"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            },
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            }
           ]
         },
         {
-          "title": "Déploiement et sécurisation",
-          "dev": [],
-          "other": ["PHPMyAdmin", "Netkit"]
-        }
-      ],
-      "projects": [
+          "id": "AC23.02",
+          "title": "Utiliser des serveurs et des services réseaux virtualisés",
+          "acquired": false,
+          "description": "J’ai utilisé VirtualBox pour exécuter Linux sur Windows et Docker pour reproduire le même environnement que mes coéquipiers dans un projet. Je souhaite approfondir mes compétences pour déployer et gérer des serveurs virtuels, des conteneurs et des services cloud de manière plus complète.",
+          "acquiredElements": [
+            "Bases de Docker",
+            "Notions de virtualisation (VirtualBox)"
+          ],
+          "toConsolidate": ["Déploiement sur cloud"],
+          "examples": ["Docker", "VirtualBox", "Linux"],
+          "projects": []
+        },
         {
-          "name": "Project Haven",
-          "link": "https://github.com/redlinka/Projet-HAVEN"
+          "id": "AC23.03",
+          "title": "Sécuriser les services et données d'un système",
+          "acquired": false,
+          "description": "Je n’ai pas encore mis en place de protections avancées au niveau réseau et système, mais je comprends leur importance et je souhaite apprendre à appliquer des mesures comme le chiffrement des données, la gestion des accès et la mise en place de pare-feu.",
+          "acquiredElements": [
+            "Gestion des droits et permissions Linux",
+            "Firewall",
+            "NAT",
+            "Proxy"
+          ],
+          "toConsolidate": [
+            "Configuration HTTPS et certificats SSL/TLS",
+            "VPN et tunnels sécurisés",
+            "Détection d'attaque"
+          ],
+          "examples": ["Wireshark", "Linux", "Netkit"],
+          "projects": []
         }
       ]
     },
     {
       "title": "Gérer",
-      "description": "La compétence Gérer consiste à concevoir, organiser et exploiter les données d’une organisation afin de les rendre utiles à la prise de décision. Elle couvre l’ensemble du cycle de vie de la donnée, depuis sa structuration jusqu’à sa restitution sous une forme exploitable. Elle implique la conception de bases de données adaptées aux besoins, leur mise à jour, ainsi que leur interrogation à l’aide de requêtes ou via des applications. L’objectif est de garantir la cohérence, la qualité et la performance des données, tout en facilitant leur utilisation et leur compréhension, notamment grâce à des outils de visualisation. Gérer, c’est également assurer la sécurité et la confidentialité des informations, en respectant les réglementations en vigueur sur la protection des données personnelles. Cette compétence intègre enfin une réflexion sur les enjeux économiques, sociétaux et environnementaux liés au stockage et à l’exploitation des données, afin de proposer des solutions responsables et efficaces.",
-      "parts": [
+      "description": "Concevoir, gérer et exploiter les données de l’entreprise afin de fournir toutes les informations nécessaires pour un pilotage efficace de ses activités.",
+      "ac": [
         {
-          "title": "Base de données",
-          "dev": ["mysql", "postgresql", "mongodb"],
-          "other": [
-            "Indexation",
-            "Optimisation des requêtes",
-            "Sécurité des données"
+          "id": "AC24.01",
+          "title": "Optimiser les modèles de données de l'entreprise",
+          "acquired": true,
+          "description": "Avant de développer, je m’assure d’avoir créé un schéma de base de données optimal pour organiser et stocker les données efficacement. Je réfléchis aux relations, à l’indexation et à la structure globale afin d’améliorer les performances et la maintenance de la base.",
+          "acquiredElements": [
+            "Modélisation entité-relation (MCD, MLD)",
+            "Indexation et optimisation des requêtes SQL",
+            "NoSQL"
+          ],
+          "examples": ["MySQL", "PostgreSQL", "MongoDB", "Looping"],
+          "projects": [
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            },
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
           ]
         },
         {
-          "title": "Respect des réglementations",
-          "dev": [],
-          "other": [
-            "Qualité/intégrité des données",
-            "RGPD",
-            "Loi informatique et Libertés",
-            "Consentement utilisateur"
+          "id": "AC24.02",
+          "title": "Assurer la sécurité des données (intégrité et confidentialité)",
+          "acquired": true,
+          "description": "Pour qu’une base de données reste fiable et sécurisée, je veille à protéger les données en appliquant des contraintes SQL, en chiffrant les informations et en gérant les accès.",
+          "acquiredElements": [
+            "Contraintes d'intégrité (clés étrangères, UNIQUE, NOT NULL)",
+            "Gestion des droits et rôles en base de données",
+            "Chiffrement des données sensibles"
+          ],
+          "examples": ["MySQL", "MongoDB", "PhpMyAdmin", "MongoDB Compass"],
+          "projects": [
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            },
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
           ]
-        }
-      ],
-      "projects": [
-        {
-          "name": "LouisTrain",
-          "link": "https://github.com/Murasakaaa/LouisTrain"
         },
         {
-          "name": "Project Haven",
-          "link": "https://github.com/redlinka/Projet-HAVEN"
+          "id": "AC24.03",
+          "title": "Organiser la restitution de données à travers la programmation et la visualisation",
+          "acquired": true,
+          "description": "Lorsque je travaille avec des données, je les extrait et les transforme afin de les rendre plus compréhensibles. Je les présente sous forme de graphiques ou de tableaux pour faciliter l’analyse et aider à la prise de décision.",
+          "acquiredElements": [
+            "Requêtes SQL complexes (agrégations, sous-requêtes, jointures)",
+            "Exportation en CSV",
+            "Visualisation graphique avec javascript"
+          ],
+          "examples": ["MUI", "Excel", "Google Sheet"],
+          "projects": [
+            {
+              "name": "Monetix",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "id": "AC24.04",
+          "title": "Manipuler des données hétérogènes",
+          "acquired": true,
+          "description": "Lorsque je travaille avec différentes sources de données, je prends le temps de les traiter et de les intégrer correctement, même si elles sont dans des formats différents comme JSON ou CSV. Je veille à garder des données cohérentes et exploitables pour la suite du projet.",
+          "acquiredElements": [
+            "Parsing et manipulation de JSON et CSV",
+            "Conversion entre formats de données",
+            "Data cleaning"
+          ],
+          "examples": ["Node.js"],
+          "projects": []
         }
       ]
     },
     {
       "title": "Conduire",
-      "description": "La compétence Conduire consiste à piloter un projet informatique dans sa globalité, depuis l’identification des besoins jusqu’à sa mise en œuvre et son évolution, en s’appuyant sur des méthodes adaptées, qu’elles soient classiques ou agiles. Elle implique de comprendre les attentes des clients et des utilisateurs afin de proposer des solutions cohérentes avec leur chaîne de valeur. Conduire un projet, c’est organiser les différentes phases du cycle de développement, mobiliser les outils de gestion appropriés et coordonner les acteurs impliqués en assurant une communication claire et efficace. Cette compétence repose également sur une capacité à formaliser les besoins, à évaluer la faisabilité d’un projet et à en assurer le suivi tout au long de son cycle de vie, y compris en condition opérationnelle. Elle intègre une démarche proactive, critique et créative pour s’adapter aux évolutions et améliorer en continu les systèmes existants. Enfin, elle prend en compte les dimensions juridiques, éthiques, responsables et interculturelles, afin de garantir des pratiques conformes aux normes en vigueur et respectueuses des enjeux sociétaux et environnementaux.",
-      "parts": [
+      "description": "Répondre aux besoins des utilisateurs en tenant compte des enjeux du client, tout en organisant et en pilotant un projet informatique à l’aide de méthodes classiques ou agiles.",
+      "ac": [
         {
-          "title": "Planification & gestion de projet",
-          "dev": [],
-          "other": ["Agile", "Cycle en V", "RACI", "Gantt"]
+          "id": "AC25.01",
+          "title": "Identifier les processus présents dans une organisation en vue d'améliorer les systèmes d'information",
+          "acquired": false,
+          "description": "Je n’ai pas encore eu l’occasion d’analyser en détail le fonctionnement d’une organisation. Cependant, je comprends l’intérêt de cette démarche pour améliorer et automatiser certaines tâches grâce à un système d’information.",
+          "acquiredElements": [],
+          "toConsolidate": [
+            "Modélisation de processus",
+            "Identification des acteurs et des flux d'information",
+            "Conduite du changement et accompagnement utilisateurs"
+          ],
+          "examples": [],
+          "projects": []
         },
         {
-          "title": "Outils de gestion de projet",
-          "dev": ["jira", "trello"],
-          "other": ["GanttProject"]
-        }
-      ],
-      "projects": [
-        {
-          "name": "LouisTrain",
-          "link": "https://github.com/Murasakaaa/LouisTrain"
+          "id": "AC25.02",
+          "title": "Formaliser les besoins du client et de l'utilisateur",
+          "acquired": true,
+          "description": "Dans mes projets, je discute avec le client et les utilisateurs pour comprendre leurs besoins. Ensuite, je les organise et les note clairement pour guider le développement du projet.",
+          "acquiredElements": [
+            "Rédaction de user stories et critères d'acceptation",
+            "Maquettage et prototypage",
+            "Backlog produit et priorisation"
+          ],
+          "examples": ["Figma", "Jira", "Google Docs"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
+          ]
         },
         {
-          "name": "Project Haven",
-          "link": "https://github.com/redlinka/Projet-HAVEN"
+          "id": "AC25.03",
+          "title": "Identifier les critères de faisabilité d'un projet informatique",
+          "acquired": true,
+          "description": "Lors de mes projets, j’évalue le temps nécessaire pour réaliser les différentes tâches afin d’organiser le travail efficacement. Je souhaite approfondir mes compétences pour analyser aussi la faisabilité économique.",
+          "acquiredElements": [
+            "Estimation de charge",
+            "Planification (diagramme de Gantt)"
+          ],
+          "toConsolidate": ["Analyse coût/bénéfice"],
+          "examples": ["GanttProject", "Jira"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
+          ]
+        },
+        {
+          "id": "AC25.04",
+          "title": "Définir et mettre en oeuvre une démarche de suivi de projet",
+          "acquired": true,
+          "description": "Dans mes projets, je planifie et suis l’avancement des tâches pour m’assurer que le projet avance correctement. J’utilise des méthodes adaptées comme Agile ou le cycle en V et je me réfère à des indicateurs simples pour suivre la progression.",
+          "acquiredElements": [
+            "Réunion Scrum (sprint planning, daily)",
+            "Tableau Kanban et suivi des tâches",
+            "Rédaction de comptes-rendus et reporting",
+            "Chemin critique (PERT)"
+          ],
+          "examples": ["Jira", "Trello", "Google Docs", "GitHub"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            },
+            {
+              "name": "LouisTrain",
+              "link": "https://github.com/Murasakaaa/LouisTrain"
+            }
+          ]
         }
       ]
     },
     {
       "title": "Collaborer",
-      "description": "La compétence Collaborer consiste à travailler efficacement au sein d’une équipe informatique en mobilisant des aptitudes relationnelles, organisationnelles et communicationnelles adaptées. Elle implique de comprendre son environnement professionnel, d’identifier les rôles, les statuts et les responsabilités de chaque acteur, et de s’inscrire dans une dynamique collective, souvent pluridisciplinaire. Collaborer, c’est savoir organiser son travail en cohérence avec celui des autres, partager et transmettre l’information de manière claire et structurée, tout en contribuant activement à l’avancement du projet. Cette compétence suppose également de participer à la mise en œuvre des évolutions informatiques en accompagnant les changements et en facilitant leur adoption. Elle repose sur une communication efficace, favorisant l’écoute, l’échange et la coopération entre les membres de l’équipe. Enfin, elle intègre le respect des contraintes juridiques et organisationnelles, ainsi qu’une capacité à rendre compte de son activité, afin de garantir la transparence, la coordination et la réussite des projets collectifs.",
-      "parts": [
+      "description": "Développer et mettre en pratique les compétences nécessaires pour collaborer efficacement au sein d’une équipe informatique.",
+      "ac": [
         {
-          "title": "Outils collaboratifs",
-          "dev": ["git", "github", "jira", "google"],
-          "other": ["discord"]
+          "id": "AC26.01",
+          "title": "Comprendre la diversité, la structure et la dimension de l'informatique dans une organisation",
+          "acquired": false,
+          "description": "Je ne connais pas encore en détail les différentes structures du secteur informatique ni les rôles et interactions au sein d’une organisation. Cependant, je souhaite m’informer et comprendre ces aspects pour mieux me préparer à travailler dans ce domaine.",
+          "acquiredElements": ["Identification des métiers de l'informatique"],
+          "toConsolidate": [
+            "Connaissance des types de structures (ESN, DSI, startup)"
+          ],
+          "examples": ["LinkedIn"],
+          "projects": []
         },
         {
-          "title": "Méthodes de travail",
-          "dev": [],
-          "other": ["Agile", "Revues de code", "Pair coding", "Merge request"]
-        }
-      ],
-      "projects": [
-        {
-          "name": "LouisTrain",
-          "link": "https://github.com/Murasakaaa/LouisTrain"
+          "id": "AC26.02",
+          "title": "Appliquer une démarche pour intégrer une équipe informatique au sein d'une organisation",
+          "acquired": true,
+          "description": "Lorsque l’on rejoint une équipe informatique, il est important de s’adapter aux méthodes de travail en place. Il faut également connaître et savoir utiliser les outils collaboratifs pour faciliter la communication et la coordination.",
+          "acquiredElements": [
+            "Prise en main d'un projet existant",
+            "Respect des conventions de code et des workflows Git",
+            "Utilisation des outils de collaboration de l'équipe"
+          ],
+          "examples": ["Git", "GitHub", "Jira", "Google Docs"],
+          "projects": []
         },
         {
-          "name": "Project Haven",
-          "link": "https://github.com/redlinka/Projet-HAVEN"
+          "id": "AC26.03",
+          "title": "Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique",
+          "acquired": false,
+          "description": "Je m’efforce de développer mes compétences relationnelles pour mieux travailler en équipe, en pratiquant la communication, l’écoute active, l’adaptabilité et la collaboration.",
+          "acquiredElements": [
+            "Travail en binôme et pair programming",
+            "Gestion des désaccords",
+            "Participation active aux rétrospectives"
+          ],
+          "toConsolidate": ["Communication en réunion"],
+          "examples": ["Discord"],
+          "projects": [
+            {
+              "name": "Project Haven",
+              "link": "https://github.com/redlinka/Projet-HAVEN"
+            }
+          ]
+        },
+        {
+          "id": "AC26.04",
+          "title": "Rendre compte de son activité professionnelle",
+          "acquired": false,
+          "description": "Je m’efforce de communiquer de façon claire sur mon travail, mes avancées et mes résultats, que ce soit à l’écrit dans des rapports ou documentations, ou à l’oral lors de réunions. Cela permet à l’équipe ou au client de suivre facilement l’avancement du projet.",
+          "acquiredElements": [
+            "Rédaction de rapports",
+            "Documentation (README)"
+          ],
+          "toConsolidate": ["Communication en réunion"],
+          "examples": ["GitHub", "Markdown"],
+          "projects": []
         }
       ]
     }
