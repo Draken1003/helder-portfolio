@@ -1,4 +1,4 @@
-{
+﻿{
   "skills": [
     {
       "title": "Réaliser",
@@ -6,9 +6,9 @@
       "ac": [
         {
           "id": "AC21.01",
-          "title": "Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+          "title": "Ã‰laborer et implémenter les spécifications fonctionnelles et non fonctionnelles Ã partir des exigences",
           "acquired": true,
-          "description": "Lorsque je commence un projet, je prends le temps de comprendre et d’organiser les attentes du client, qu’elles soient fonctionnelles ou non fonctionnelles, afin d’avoir une vision claire avant de démarrer le développement.",
+          "description": "Lorsque je commence un projet, je prends le temps de comprendre et dâ€™organiser les attentes du client, quâ€™elles soient fonctionnelles ou non fonctionnelles, afin dâ€™avoir une vision claire avant de démarrer le développement.",
           "acquiredElements": [
             "Analyse du cahiers des charges",
             "Compréhension des besoins",
@@ -30,9 +30,9 @@
         },
         {
           "id": "AC21.02",
-          "title": "Appliquer des principes d'accessibilité et d'ergonomie",
+          "title": "Appliquer des principes d\u0027accessibilité et d\u0027ergonomie",
           "acquired": true,
-          "description": "Attiré par le design, je conçois des interfaces modernes et ergonomiques, en m’inspirant d'éléments existants afin de proposer un parcours utilisateur simple et agréable sur tous types d’appareils.",
+          "description": "Attiré par le design, je conÃ§ois des interfaces modernes et ergonomiques, en mâ€™inspirant d\u0027éléments existants afin de proposer un parcours utilisateur simple et agréable sur tous types dâ€™appareils.",
           "acquiredElements": [
             "Prototypage interactif",
             "Benchmark",
@@ -52,7 +52,7 @@
           "id": "AC21.03",
           "title": "Adopter de bonnes pratiques de conception et de programmation",
           "acquired": true,
-          "description": "Je prend soin d'écrire un code clair et maintenable pour faciliter le travail en équipe et assurer sa maintenabilité, tant pour la maintenance que pour l’évolution du projet.",
+          "description": "Je prend soin d\u0027écrire un code clair et maintenable pour faciliter le travail en équipe et assurer sa maintenabilité, tant pour la maintenance que pour lâ€™évolution du projet.",
           "acquiredElements": [
             "Clean code",
             "Conventions de nommage et commentaires",
@@ -76,15 +76,15 @@
         },
         {
           "id": "AC21.04",
-          "title": "Vérifier et valider la qualité de l'application par les tests",
+          "title": "Vérifier et valider la qualité de l\u0027application par les tests",
           "acquired": false,
-          "description": "Lorsque je développe, je teste manuellement les fonctionnalités que je mets en place à partir de cas de test. Je souhaite cependant évoluer vers les bonnes pratiques en intégrant des tests unitaires et des tests d’intégration.",
+          "description": "Lorsque je développe, je teste manuellement les fonctionnalités que je mets en place Ã  partir de cas de test. Je souhaite cependant évoluer vers les bonnes pratiques en intégrant des tests unitaires et des tests dâ€™intégration.",
           "acquiredElements": [
             "Tests manuels",
             "Cahier de tests",
             "Identification et correction des bugs"
           ],
-          "toConsolidate": ["Tests d'intégration", "Tests unitaires"],
+          "toConsolidate": ["Tests d\u0027intégration", "Tests unitaires"],
           "examples": ["VSCode", "DevTools"],
           "projects": [
             {
@@ -101,15 +101,15 @@
     },
     {
       "title": "Optimiser",
-      "description": "Proposer des applications informatiques optimisées en tenant compte de critères spécifiques comme le temps d’exécution, la précision et la consommation de ressources.",
+      "description": "Proposer des applications informatiques optimisées en tenant compte de critÃ¨res spécifiques comme le temps dâ€™exécution, la précision et la consommation de ressources.",
       "ac": [
         {
           "id": "AC22.01",
-          "title": "Choisir des structures de données complexes adaptées au problème",
+          "title": "Choisir des structures de données complexes adaptées au problÃ¨me",
           "acquired": true,
-          "description": "Avant de commencer à développer, je m’assure de choisir la structure de données la plus adaptée pour optimiser les performances du programme.",
+          "description": "Avant de commencer Ã  développer, je mâ€™assure de choisir la structure de données la plus adaptée pour optimiser les performances du programme.",
           "acquiredElements": [
-            "Listes chaînées",
+            "Listes chaÃ®nées",
             "Piles",
             "Files",
             "Arbres binaires",
@@ -128,9 +128,9 @@
         },
         {
           "id": "AC22.02",
-          "title": "Utiliser des techniques algorithmiques adaptées pour des problèmes complexes",
+          "title": "Utiliser des techniques algorithmiques adaptées pour des problÃ¨mes complexes",
           "acquired": false,
-          "description": "Quand je réfléchis à un programme, je cherche à l’optimiser, mais je n’utilise pas encore d’algorithmes avancés comme la programmation dynamique ou les algorithmes de tri. Je souhaite m’appuyer davantage sur ces méthodes.",
+          "description": "Quand je réfléchis Ã  un programme, je cherche Ã  lâ€™optimiser, mais je nâ€™utilise pas encore dâ€™algorithmes avancés comme la programmation dynamique ou les algorithmes de tri. Je souhaite mâ€™appuyer davantage sur ces méthodes.",
           "acquiredElements": [
             "Algorithmes de tri",
             "Récursivité",
@@ -139,7 +139,7 @@
           ],
           "toConsolidate": [
             "Programmation dynamique",
-            "Utilisation d'algorithmes avancés"
+            "Utilisation d\u0027algorithmes avancés"
           ],
           "examples": [
             "Tri séléction",
@@ -158,11 +158,11 @@
           "id": "AC22.03",
           "title": "Comprendre les enjeux et moyens de sécurisation des données et du code",
           "acquired": true,
-          "description": "Pendant la conception d’un projet, je veille à identifier les vulnérabilités courantes et à appliquer les bonnes pratiques de sécurité, tant dans l’environnement externe que dans l’environnement interne du projet.",
+          "description": "Pendant la conception dâ€™un projet, je veille Ã  identifier les vulnérabilités courantes et Ã  appliquer les bonnes pratiques de sécurité, tant dans lâ€™environnement externe que dans lâ€™environnement interne du projet.",
           "acquiredElements": [
             "Hachage et chiffrement des mots de passe",
             "Authentification et sessions sécurisées (2FA)",
-            "Variables d'environnement"
+            "Variables d\u0027environnement"
           ],
           "examples": ["Git", "SHA", "ENV"],
           "projects": [
@@ -178,13 +178,13 @@
         },
         {
           "id": "AC22.04",
-          "title": "Évaluer l'impact environnemental et sociétal des solutions proposées",
+          "title": "Ã‰valuer l\u0027impact environnemental et sociétal des solutions proposées",
           "acquired": false,
-          "description": "Je n’ai pas encore réfléchi à l’empreinte numérique de mes projets, mais je pense que ce serait une bonne pratique à intégrer pour limiter l’impact environnemental et prendre en compte les conséquences de mes choix techniques.",
+          "description": "Je nâ€™ai pas encore réfléchi Ã  lâ€™empreinte numérique de mes projets, mais je pense que ce serait une bonne pratique Ã  intégrer pour limiter lâ€™impact environnemental et prendre en compte les conséquences de mes choix techniques.",
           "acquiredElements": [],
           "toConsolidate": [
-            "Notions d'éco-conception logicielle",
-            "Mesure de l'empreinte carbone des services numériques",
+            "Notions d\u0027éco-conception logicielle",
+            "Mesure de l\u0027empreinte carbone des services numériques",
             "Optimisation des ressources serveur et réseau"
           ],
           "examples": [],
@@ -194,16 +194,15 @@
     },
     {
       "title": "Administrer",
-      "description": "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux, tout en optimisant le système informatique d’une organisation.",
+      "description": "Installer, configurer et maintenir en conditions opérationnelles les infrastructures, services et réseaux, tout en optimisant le systÃ¨me informatique dâ€™une organisation.",
       "ac": [
         {
           "id": "AC23.01",
           "title": "Concevoir et développer des applications communicantes",
           "acquired": false,
-          "description": "Lorsque je développe une application, je m’assure que les échanges entre le client et le serveur fonctionnent correctement. Je teste les appels aux APIs et veille à ce que les données circulent de manière fluide et cohérente, que ce soit via WebSocket ou d’autres protocoles. Cependant je souhaite renforcer mes compétences sur ce domaine.",
+          "description": "Lorsque je développe une application, je mâ€™assure que les échanges entre le client et le serveur fonctionnent correctement. Je teste les appels aux APIs et veille Ã  ce que les données circulent de maniÃ¨re fluide et cohérente, que ce soit via WebSocket ou dâ€™autres protocoles. Cependant je souhaite renforcer mes compétences sur ce domaine.",
           "acquiredElements": [
-            "Développement d'APIs",
-
+            "Développement d\u0027APIs",
             "Format JSON et sérialisation des données"
           ],
           "toConsolidate": ["WebSockets et communication temps réel"],
@@ -223,7 +222,7 @@
           "id": "AC23.02",
           "title": "Utiliser des serveurs et des services réseaux virtualisés",
           "acquired": false,
-          "description": "J’ai utilisé VirtualBox pour exécuter Linux sur Windows et Docker pour reproduire le même environnement que mes coéquipiers dans un projet. Je souhaite approfondir mes compétences pour déployer et gérer des serveurs virtuels, des conteneurs et des services cloud de manière plus complète.",
+          "description": "Jâ€™ai utilisé VirtualBox pour exécuter Linux sur Windows et Docker pour reproduire le mÃªme environnement que mes coéquipiers dans un projet. Je souhaite approfondir mes compétences pour déployer et gérer des serveurs virtuels, des conteneurs et des services cloud de maniÃ¨re plus complÃ¨te.",
           "acquiredElements": [
             "Bases de Docker",
             "Notions de virtualisation (VirtualBox)"
@@ -234,9 +233,9 @@
         },
         {
           "id": "AC23.03",
-          "title": "Sécuriser les services et données d'un système",
+          "title": "Sécuriser les services et données d\u0027un systÃ¨me",
           "acquired": false,
-          "description": "Je n’ai pas encore mis en place de protections avancées au niveau réseau et système, mais je comprends leur importance et je souhaite apprendre à appliquer des mesures comme le chiffrement des données, la gestion des accès et la mise en place de pare-feu.",
+          "description": "Je nâ€™ai pas encore mis en place de protections avancées au niveau réseau et systÃ¨me, mais je comprends leur importance et je souhaite apprendre Ã  appliquer des mesures comme le chiffrement des données, la gestion des accÃ¨s et la mise en place de pare-feu.",
           "acquiredElements": [
             "Gestion des droits et permissions Linux",
             "Firewall",
@@ -246,7 +245,7 @@
           "toConsolidate": [
             "Configuration HTTPS et certificats SSL/TLS",
             "VPN et tunnels sécurisés",
-            "Détection d'attaque"
+            "Détection d\u0027attaque"
           ],
           "examples": ["Wireshark", "Linux", "Netkit"],
           "projects": []
@@ -255,16 +254,16 @@
     },
     {
       "title": "Gérer",
-      "description": "Concevoir, gérer et exploiter les données de l’entreprise afin de fournir toutes les informations nécessaires pour un pilotage efficace de ses activités.",
+      "description": "Concevoir, gérer et exploiter les données de lâ€™entreprise afin de fournir toutes les informations nécessaires pour un pilotage efficace de ses activités.",
       "ac": [
         {
           "id": "AC24.01",
-          "title": "Optimiser les modèles de données de l'entreprise",
+          "title": "Optimiser les modÃ¨les de données de l\u0027entreprise",
           "acquired": true,
-          "description": "Avant de développer, je m’assure d’avoir créé un schéma de base de données optimal pour organiser et stocker les données efficacement. Je réfléchis aux relations, à l’indexation et à la structure globale afin d’améliorer les performances et la maintenance de la base.",
+          "description": "Avant de développer, je mâ€™assure dâ€™avoir créé un schéma de base de données optimal pour organiser et stocker les données efficacement. Je réfléchis aux relations, Ã  lâ€™indexation et Ã  la structure globale afin dâ€™améliorer les performances et la maintenance de la base.",
           "acquiredElements": [
             "Modélisation entité-relation (MCD, MLD)",
-            "Indexation et optimisation des requêtes SQL",
+            "Indexation et optimisation des requÃªtes SQL",
             "NoSQL"
           ],
           "examples": ["MySQL", "PostgreSQL", "MongoDB", "Looping"],
@@ -283,10 +282,10 @@
           "id": "AC24.02",
           "title": "Assurer la sécurité des données (intégrité et confidentialité)",
           "acquired": true,
-          "description": "Pour qu’une base de données reste fiable et sécurisée, je veille à protéger les données en appliquant des contraintes SQL, en chiffrant les informations et en gérant les accès.",
+          "description": "Pour quâ€™une base de données reste fiable et sécurisée, je veille Ã  protéger les données en appliquant des contraintes SQL, en chiffrant les informations et en gérant les accÃ¨s.",
           "acquiredElements": [
-            "Contraintes d'intégrité (clés étrangères, UNIQUE, NOT NULL)",
-            "Gestion des droits et rôles en base de données",
+            "Contraintes d\u0027intégrité (clés étrangÃ¨res, UNIQUE, NOT NULL)",
+            "Gestion des droits et rÃ´les en base de données",
             "Chiffrement des données sensibles"
           ],
           "examples": ["MySQL", "MongoDB", "PhpMyAdmin", "MongoDB Compass"],
@@ -303,11 +302,11 @@
         },
         {
           "id": "AC24.03",
-          "title": "Organiser la restitution de données à travers la programmation et la visualisation",
+          "title": "Organiser la restitution de données Ã  travers la programmation et la visualisation",
           "acquired": true,
-          "description": "Lorsque je travaille avec des données, je les extrait et les transforme afin de les rendre plus compréhensibles. Je les présente sous forme de graphiques ou de tableaux pour faciliter l’analyse et aider à la prise de décision.",
+          "description": "Lorsque je travaille avec des données, je les extrait et les transforme afin de les rendre plus compréhensibles. Je les présente sous forme de graphiques ou de tableaux pour faciliter lâ€™analyse et aider Ã  la prise de décision.",
           "acquiredElements": [
-            "Requêtes SQL complexes (agrégations, sous-requêtes, jointures)",
+            "RequÃªtes SQL complexes (agrégations, sous-requÃªtes, jointures)",
             "Exportation en CSV",
             "Visualisation graphique avec javascript"
           ],
@@ -321,9 +320,9 @@
         },
         {
           "id": "AC24.04",
-          "title": "Manipuler des données hétérogènes",
+          "title": "Manipuler des données hétérogÃ¨nes",
           "acquired": true,
-          "description": "Lorsque je travaille avec différentes sources de données, je prends le temps de les traiter et de les intégrer correctement, même si elles sont dans des formats différents comme JSON ou CSV. Je veille à garder des données cohérentes et exploitables pour la suite du projet.",
+          "description": "Lorsque je travaille avec différentes sources de données, je prends le temps de les traiter et de les intégrer correctement, mÃªme si elles sont dans des formats différents comme JSON ou CSV. Je veille Ã  garder des données cohérentes et exploitables pour la suite du projet.",
           "acquiredElements": [
             "Parsing et manipulation de JSON et CSV",
             "Conversion entre formats de données",
@@ -336,17 +335,17 @@
     },
     {
       "title": "Conduire",
-      "description": "Répondre aux besoins des utilisateurs en tenant compte des enjeux du client, tout en organisant et en pilotant un projet informatique à l’aide de méthodes classiques ou agiles.",
+      "description": "Répondre aux besoins des utilisateurs en tenant compte des enjeux du client, tout en organisant et en pilotant un projet informatique Ã  lâ€™aide de méthodes classiques ou agiles.",
       "ac": [
         {
           "id": "AC25.01",
-          "title": "Identifier les processus présents dans une organisation en vue d'améliorer les systèmes d'information",
+          "title": "Identifier les processus présents dans une organisation en vue d\u0027améliorer les systÃ¨mes d\u0027information",
           "acquired": false,
-          "description": "Je n’ai pas encore eu l’occasion d’analyser en détail le fonctionnement d’une organisation. Cependant, je comprends l’intérêt de cette démarche pour améliorer et automatiser certaines tâches grâce à un système d’information.",
+          "description": "Je nâ€™ai pas encore eu lâ€™occasion dâ€™analyser en détail le fonctionnement dâ€™une organisation. Cependant, je comprends lâ€™intérÃªt de cette démarche pour améliorer et automatiser certaines tÃ¢ches grÃ¢ce Ã  un systÃ¨me dâ€™information.",
           "acquiredElements": [],
           "toConsolidate": [
             "Modélisation de processus",
-            "Identification des acteurs et des flux d'information",
+            "Identification des acteurs et des flux d\u0027information",
             "Conduite du changement et accompagnement utilisateurs"
           ],
           "examples": [],
@@ -354,11 +353,11 @@
         },
         {
           "id": "AC25.02",
-          "title": "Formaliser les besoins du client et de l'utilisateur",
+          "title": "Formaliser les besoins du client et de l\u0027utilisateur",
           "acquired": true,
           "description": "Dans mes projets, je discute avec le client et les utilisateurs pour comprendre leurs besoins. Ensuite, je les organise et les note clairement pour guider le développement du projet.",
           "acquiredElements": [
-            "Rédaction de user stories et critères d'acceptation",
+            "Rédaction de user stories et critÃ¨res d\u0027acceptation",
             "Maquettage et prototypage",
             "Backlog produit et priorisation"
           ],
@@ -372,14 +371,14 @@
         },
         {
           "id": "AC25.03",
-          "title": "Identifier les critères de faisabilité d'un projet informatique",
+          "title": "Identifier les critÃ¨res de faisabilité d\u0027un projet informatique",
           "acquired": true,
-          "description": "Lors de mes projets, j’évalue le temps nécessaire pour réaliser les différentes tâches afin d’organiser le travail efficacement. Je souhaite approfondir mes compétences pour analyser aussi la faisabilité économique.",
+          "description": "Lors de mes projets, jâ€™évalue le temps nécessaire pour réaliser les différentes tÃ¢ches afin dâ€™organiser le travail efficacement. Je souhaite approfondir mes compétences pour analyser aussi la faisabilité économique.",
           "acquiredElements": [
             "Estimation de charge",
             "Planification (diagramme de Gantt)"
           ],
-          "toConsolidate": ["Analyse coût/bénéfice"],
+          "toConsolidate": ["Analyse coÃ»t/bénéfice"],
           "examples": ["GanttProject", "Jira"],
           "projects": [
             {
@@ -392,10 +391,10 @@
           "id": "AC25.04",
           "title": "Définir et mettre en oeuvre une démarche de suivi de projet",
           "acquired": true,
-          "description": "Dans mes projets, je planifie et suis l’avancement des tâches pour m’assurer que le projet avance correctement. J’utilise des méthodes adaptées comme Agile ou le cycle en V et je me réfère à des indicateurs simples pour suivre la progression.",
+          "description": "Dans mes projets, je planifie et suis lâ€™avancement des tÃ¢ches pour mâ€™assurer que le projet avance correctement. Jâ€™utilise des méthodes adaptées comme Agile ou le cycle en V et je me réfÃ¨re Ã  des indicateurs simples pour suivre la progression.",
           "acquiredElements": [
             "Réunion Scrum (sprint planning, daily)",
-            "Tableau Kanban et suivi des tâches",
+            "Tableau Kanban et suivi des tÃ¢ches",
             "Rédaction de comptes-rendus et reporting",
             "Chemin critique (PERT)"
           ],
@@ -415,14 +414,16 @@
     },
     {
       "title": "Collaborer",
-      "description": "Développer et mettre en pratique les compétences nécessaires pour collaborer efficacement au sein d’une équipe informatique.",
+      "description": "Développer et mettre en pratique les compétences nécessaires pour collaborer efficacement au sein dâ€™une équipe informatique.",
       "ac": [
         {
           "id": "AC26.01",
-          "title": "Comprendre la diversité, la structure et la dimension de l'informatique dans une organisation",
+          "title": "Comprendre la diversité, la structure et la dimension de l\u0027informatique dans une organisation",
           "acquired": false,
-          "description": "Je ne connais pas encore en détail les différentes structures du secteur informatique ni les rôles et interactions au sein d’une organisation. Cependant, je souhaite m’informer et comprendre ces aspects pour mieux me préparer à travailler dans ce domaine.",
-          "acquiredElements": ["Identification des métiers de l'informatique"],
+          "description": "Je ne connais pas encore en détail les différentes structures du secteur informatique ni les rÃ´les et interactions au sein dâ€™une organisation. Cependant, je souhaite mâ€™informer et comprendre ces aspects pour mieux me préparer Ã  travailler dans ce domaine.",
+          "acquiredElements": [
+            "Identification des métiers de l\u0027informatique"
+          ],
           "toConsolidate": [
             "Connaissance des types de structures (ESN, DSI, startup)"
           ],
@@ -431,13 +432,13 @@
         },
         {
           "id": "AC26.02",
-          "title": "Appliquer une démarche pour intégrer une équipe informatique au sein d'une organisation",
+          "title": "Appliquer une démarche pour intégrer une équipe informatique au sein d\u0027une organisation",
           "acquired": true,
-          "description": "Lorsque l’on rejoint une équipe informatique, il est important de s’adapter aux méthodes de travail en place. Il faut également connaître et savoir utiliser les outils collaboratifs pour faciliter la communication et la coordination.",
+          "description": "Lorsque lâ€™on rejoint une équipe informatique, il est important de sâ€™adapter aux méthodes de travail en place. Il faut également connaÃ®tre et savoir utiliser les outils collaboratifs pour faciliter la communication et la coordination.",
           "acquiredElements": [
-            "Prise en main d'un projet existant",
+            "Prise en main d\u0027un projet existant",
             "Respect des conventions de code et des workflows Git",
-            "Utilisation des outils de collaboration de l'équipe"
+            "Utilisation des outils de collaboration de l\u0027équipe"
           ],
           "examples": ["Git", "GitHub", "Jira", "Google Docs"],
           "projects": []
@@ -446,9 +447,9 @@
           "id": "AC26.03",
           "title": "Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique",
           "acquired": false,
-          "description": "Je m’efforce de développer mes compétences relationnelles pour mieux travailler en équipe, en pratiquant la communication, l’écoute active, l’adaptabilité et la collaboration.",
+          "description": "Je mâ€™efforce de développer mes compétences relationnelles pour mieux travailler en équipe, en pratiquant la communication, lâ€™écoute active, lâ€™adaptabilité et la collaboration.",
           "acquiredElements": [
-            "Travail en binôme et pair programming",
+            "Travail en binÃ´me et pair programming",
             "Gestion des désaccords",
             "Participation active aux rétrospectives"
           ],
@@ -465,7 +466,7 @@
           "id": "AC26.04",
           "title": "Rendre compte de son activité professionnelle",
           "acquired": false,
-          "description": "Je m’efforce de communiquer de façon claire sur mon travail, mes avancées et mes résultats, que ce soit à l’écrit dans des rapports ou documentations, ou à l’oral lors de réunions. Cela permet à l’équipe ou au client de suivre facilement l’avancement du projet.",
+          "description": "Je mâ€™efforce de communiquer de faÃ§on claire sur mon travail, mes avancées et mes résultats, que ce soit Ã  lâ€™écrit dans des rapports ou documentations, ou Ã  lâ€™oral lors de réunions. Cela permet Ã  lâ€™équipe ou au client de suivre facilement lâ€™avancement du projet.",
           "acquiredElements": [
             "Rédaction de rapports",
             "Documentation (README)"
@@ -479,7 +480,12 @@
   ],
   "parcours": [
     {
-      "name": "BUT Informatique - Parcours réalisation d'applications : Conception, développement, validation",
+      "name": "Admission Ingénierie 3D \u0026 technologies des médias",
+      "place": "ESIEE Paris-UGE | Noisy-le-Grand | 93160",
+      "year": "2026"
+    },
+    {
+      "name": "BUT Informatique - Parcours réalisation d\u0027applications : Conception, développement, validation",
       "place": "IUT Université Gustave Eiffel - Champs sur Marne 77420",
       "year": "2024"
     },

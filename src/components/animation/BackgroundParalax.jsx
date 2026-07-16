@@ -1,32 +1,33 @@
-import { useEffect } from "react";
+﻿import { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Lenis from "lenis";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const DEFAULT_PARALLAX_SPEED = 0.5;
+const TICKER_TIME_TO_MS = 1000;
+
 export default function BackgroundParallax() {
   useEffect(() => {
-    // 1. Init Lenis
     const lenis = new Lenis();
+    const updateLenis = (time) => lenis.raf(time * TICKER_TIME_TO_MS);
 
-    // 2. Connecter Lenis à ScrollTrigger — INDISPENSABLE
     lenis.on("scroll", ScrollTrigger.update);
-    gsap.ticker.add((time) => lenis.raf(time * 1000));
+    gsap.ticker.add(updateLenis);
     gsap.ticker.lagSmoothing(0);
 
-    // 3. Parallax sur chaque .parallax-bg
-    const elements = gsap.utils.toArray(".parallax-bg");
+    const animations = gsap.utils.toArray(".parallax-bg").map((element) => {
+      const speed = Number.parseFloat(
+        element.dataset.speed ?? DEFAULT_PARALLAX_SPEED,
+      );
+      const section = element.closest("section");
+      if (!section) return null;
 
-    elements.forEach((el) => {
-      const speed = parseFloat(el.dataset.speed ?? 0.5);
-      const section = el.closest("section");
-
-      gsap.fromTo(
-        el,
+      return gsap.fromTo(
+        element,
         { y: 0 },
         {
-          // déplacement proportionnel à la hauteur de la section
           y: () => section.offsetHeight * speed * -1,
           ease: "none",
           scrollTrigger: {
@@ -42,10 +43,13 @@ export default function BackgroundParallax() {
 
     return () => {
       lenis.destroy();
-      ScrollTrigger.getAll().forEach((t) => t.kill());
-      gsap.ticker.remove((time) => lenis.raf(time * 1000));
+      animations.forEach((animation) => {
+        animation?.scrollTrigger?.kill();
+        animation?.kill();
+      });
+      gsap.ticker.remove(updateLenis);
     };
   }, []);
 
-  return <></>;
+  return null;
 }

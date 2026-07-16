@@ -1,0 +1,103 @@
+﻿[
+  {
+    "title": "Réaliser",
+    "description": "Concevoir et développer des applications en partant d’un besoin concret, avec une attention portée à l’interface, à la logique et à la maintenabilité.",
+    "savoirFaire": [
+      "Analyser un besoin et le transformer en fonctionnalités",
+      "Développer des interfaces web et mobiles",
+      "Créer des composants réutilisables",
+      "Créer des prototypes ou mécaniques simples de jeu vidéo",
+      "Tester manuellement les fonctionnalités développées"
+    ],
+    "tools": [
+      "React",
+      "React Native",
+      "JavaScript",
+      "Java",
+      "PHP",
+      "GDScript",
+      "C#",
+      "Tailwind CSS",
+      "Vite"
+    ],
+    "projects": ["Portfolio", "Project Haven", "LouisTrain"],
+    "software": ["Godot", "Unity"]
+  },
+  {
+    "title": "Optimiser",
+    "description": "Améliorer la qualité d’une application en réfléchissant aux performances, aux structures de données et à la clarté du code.",
+    "savoirFaire": [
+      "Choisir des structures de données adaptées",
+      "Comprendre les bases de la complexité algorithmique",
+      "Identifier et corriger des problèmes simples de performance"
+    ],
+    "tools": ["Java", "Python", "C", "JavaScript"],
+    "projects": ["Project Haven", "Tetris"]
+  },
+  {
+    "title": "Administrer",
+    "description": "Comprendre le fonctionnement d’une application communicante et les bases nécessaires pour la faire fonctionner dans un environnement technique.",
+    "savoirFaire": [
+      "Faire communiquer un client avec un serveur",
+      "Manipuler des données au format JSON",
+      "Comprendre les bases des APIs et des requêtes HTTP",
+      "Utiliser des environnements de développement et de virtualisation"
+    ],
+    "tools": ["Node.js", "PHP", "JSON", "Linux"],
+    "projects": ["Project Haven", "LouisTrain"],
+    "software": ["Docker", "VirtualBox"]
+  },
+  {
+    "title": "Gérer",
+    "description": "Concevoir, organiser et exploiter des données pour les rendre fiables, accessibles et utiles dans une application.",
+    "savoirFaire": [
+      "Modéliser une base de données",
+      "Écrire des requêtes SQL",
+      "Manipuler des données relationnelles et documentaires",
+      "Présenter ou exploiter des données dans une application"
+    ],
+    "tools": ["SQL", "NoSQL"],
+    "projects": ["Project Haven", "LouisTrain"],
+    "software": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "PhpMyAdmin",
+      "MongoDB Compass",
+      "Excel"
+    ]
+  },
+  {
+    "title": "Conduire",
+    "description": "Organiser un projet informatique, clarifier les besoins et suivre l’avancement avec des méthodes adaptées.",
+    "savoirFaire": [
+      "Formaliser les besoins utilisateur",
+      "Créer des maquettes et prototypes",
+      "Organiser un backlog et des tâches",
+      "Suivre l’avancement d’un projet en équipe"
+    ],
+    "tools": ["Maquettage", "Kanban", "Méthodes agiles", "Diagramme de Gantt"],
+    "projects": ["Project Haven", "LouisTrain"],
+    "software": [
+      "Figma",
+      "Jira",
+      "Linear",
+      "Trello",
+      "Google Docs",
+      "GanttProject"
+    ]
+  },
+  {
+    "title": "Collaborer",
+    "description": "Travailler efficacement avec une équipe, partager le code et communiquer sur l’avancement du projet.",
+    "savoirFaire": [
+      "Utiliser Git pour versionner le code",
+      "Travailler avec des branches et des pull requests",
+      "Participer à l’organisation d’un projet d’équipe",
+      "Documenter son travail et expliquer ses choix"
+    ],
+    "tools": ["Git", "Markdown", "Pull requests", "Code review"],
+    "projects": ["Project Haven", "LouisTrain", "Portfolio"],
+    "software": ["GitHub", "Discord", "Google Docs", "Jira", "Linear", "Slack"]
+  }
+]

@@ -1,6 +1,4 @@
-import React from "react";
-
-export default function Section({ children, id, className, ...props }) {
+export default function Section({ children, id, className = "", ...props }) {
   return (
     <section
       id={id}
@@ -13,7 +11,13 @@ export default function Section({ children, id, className, ...props }) {
   );
 }
 
-export function SectionHeader({ iconSrc, title, number, children, className }) {
+export function SectionHeader({
+  iconSrc,
+  title,
+  number,
+  children,
+  className = "",
+}) {
   return (
     <div className={`w-full max-w-200 ${className} grid-cols-1 md:grid`}>
       <div
@@ -21,7 +25,7 @@ export function SectionHeader({ iconSrc, title, number, children, className }) {
       >
         <div className="border-gray2 border-r p-1">
           <img
-            src={`${import.meta.env.BASE_URL + iconSrc}`}
+            src={`${import.meta.env.BASE_URL}${iconSrc}`}
             className="h-20 md:h-30"
             alt=""
           />
