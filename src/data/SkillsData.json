@@ -20,7 +20,7 @@
       "Tailwind CSS",
       "Vite"
     ],
-    "projects": ["Portfolio", "Project Haven", "LouisTrain"],
+    "projects": ["Idle RPG", "Project Haven", "LouisTrain"],
     "software": ["Godot", "Unity"]
   },
   {
@@ -97,7 +97,7 @@
       "Documenter son travail et expliquer ses choix"
     ],
     "tools": ["Git", "Markdown", "Pull requests", "Code review"],
-    "projects": ["Project Haven", "LouisTrain", "Portfolio"],
+    "projects": ["Project Haven", "LouisTrain", "Idle RPG"],
     "software": ["GitHub", "Discord", "Google Docs", "Jira", "Linear", "Slack"]
   }
 ]
