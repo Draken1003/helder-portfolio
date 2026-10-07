@@ -17,11 +17,13 @@
       "PHP",
       "GDScript",
       "C#",
+      "C++",
+      "C",
       "Tailwind CSS",
       "Vite"
     ],
     "projects": ["Idle RPG", "Project Haven", "LouisTrain"],
-    "software": ["Godot", "Unity"]
+    "software": ["Godot", "Unity", "Visual studio", "VScode"]
   },
   {
     "title": "Optimiser",

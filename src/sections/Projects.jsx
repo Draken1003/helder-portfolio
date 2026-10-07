@@ -59,7 +59,7 @@ function ProjectTitleLink({ project }) {
       <a href={project.github} target="_blank" rel="noopener noreferrer">
         <h1
           ref={titleRef}
-          className="animated-text font-clash-bold text-gray2/60 text-4xl uppercase sm:text-6xl md:ml-10 md:text-7xl"
+          className="animated-text font-general-bold text-gray2/60 text-4xl uppercase sm:text-6xl md:ml-10 md:text-7xl"
         >
           {project.title}{" "}
           <span className="flex text-black">{project.date}</span>

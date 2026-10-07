@@ -24,7 +24,7 @@ const ABOUT_BACKGROUNDS = [
   { src: "/assets/svg/shape4.svg", className: "top-4/5 -left-50!" },
 ];
 
-const ABOUT_DESCRIPTION = `Passionné par le développement web et les jeux vidéo, j'aime transformer des idées en expériences interactives. Ce qui me motive, c'est autant la réflexion derrière le code que la création d'interfaces dynamiques et agréables à utiliser. Curieux et autonome, j'aime découvrir de nouvelles technologies, relever de nouveaux défis et proposer des solutions adaptées. Aujourd'hui, je recherche une alternance en développement web ou en développement de jeux vidéo afin de continuer à progresser au sein d'une équipe et contribuer à des projets concrets.`;
+const ABOUT_DESCRIPTION = `Passionné par le développement informatique, je m’intéresse particulièrement au C++, aux simulations et aux jeux vidéo. J’aime comprendre le fonctionnement des systèmes, concevoir leur logique et voir mes idées prendre vie à travers le code. Le développement web fait également partie des domaines que j’apprécie, notamment pour créer des expériences interactives. Curieux et autonome, je cherche à approfondir mes connaissances en réalisant des projets concrets et en explorant de nouvelles approches. Je recherche aujourd’hui un stage en développement pour progresser auprès d’une équipe et contribuer à ses projets.`;
 
 function AssetImage({ src, className, ...props }) {
   return (
@@ -85,7 +85,7 @@ export default function About() {
               year={item.year}
               place={item.place}
               isHighlighted={index === 0}
-              isWide={index === 0}
+              isWide={false} // index === 0
             />
           ))}
         </div>

@@ -63,9 +63,9 @@ export default function Overlay() {
 
   return (
     <div className="absolute-center pointer-events-none fixed! z-100 flex h-dvh w-full flex-col justify-between">
-      <div className="overlay-fade absolute -top-2 left-0 -z-5 h-70 w-full" />
+      <div className="overlay-fade absolute -top-2 -z-5 h-70 w-dvw" />
       <div className="flex justify-between p-7.5 md:p-15">
-        <div className="font-clash-semibold text-gray1 h-fit text-xl uppercase">
+        <div className="font-general-bold text-gray1 h-fit text-xl uppercase">
           Esteves Helder
         </div>
 
